@@ -25,7 +25,7 @@ class MealsController < ApplicationController
 
     respond_to do |format|
       if @meal.save
-        format.html { redirect_to meal_url(@meal), notice: "Meal was successfully created." }
+        format.html { redirect_to meal_url(@meal), notice: "Meal was successfully created... phoo." }
         format.json { render :show, status: :created, location: @meal }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +38,7 @@ class MealsController < ApplicationController
   def update
     respond_to do |format|
       if @meal.update(meal_params)
-        format.html { redirect_to meal_url(@meal), notice: "Meal was successfully updated." }
+        format.html { redirect_to meal_url(@meal), notice: "We changed your meal, foo." }
         format.json { render :show, status: :ok, location: @meal }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class MealsController < ApplicationController
     @meal.destroy
 
     respond_to do |format|
-      format.html { redirect_to meals_url, notice: "Meal was successfully destroyed." }
+      format.html { redirect_to meals_url, notice: "Meal got smoked, foo." }
       format.json { head :no_content }
     end
   end
