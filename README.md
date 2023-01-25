@@ -10,4 +10,4 @@ The mealtracker app utilized:
 
 * Database initialization
 
-a rails db:migrate shou;d be all needed to prep.
+a rails db:migrate should be all needed to prep.
