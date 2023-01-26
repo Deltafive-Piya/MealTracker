@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+.form-wrapper{
+    max-width: 18rem;
+}

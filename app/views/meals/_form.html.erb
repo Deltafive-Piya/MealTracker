@@ -11,17 +11,20 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :meal, style: "display: block" %>
-    <%= form.text_field :meal %>
+  <%#       meal form%>
+  <div class="form-wrapper">
+    <div>
+      <%= form.label :meal, style: "display: block" %>
+      <%= form.text_field :meal, class:'form-control mb-2' %>
+    </div>
+    <div>
+      <%= form.label :date, style: "display: block" %>
+      <%= form.date_field :date, class:'form-control mb-2' %>
+    </div>
   </div>
 
+  <%#       create meal button%>
   <div>
-    <%= form.label :date, style: "display: block" %>
-    <%= form.date_field :date %>
-  </div>
-
-  <div>
-    <%= form.submit %>
+    <%= form.submit class:'btn btn-primary mt-5' %>
   </div>
 <% end %>
