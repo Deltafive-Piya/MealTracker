@@ -1,8 +1,7 @@
 # README
+=> Rails 7.0.4 application
 
 The mealtracker app utilized:
-
-* Ruby -v 3.1.3
 
 * Bootstrap 5
 
@@ -10,4 +9,7 @@ The mealtracker app utilized:
 
 * Database initialization
 
-a rails db:migrate should be all needed to prep.
+
+git pull
+rails db:migrate
+rails s
