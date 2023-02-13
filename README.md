@@ -9,9 +9,6 @@ The mealtracker app utilized:
 
 * Database initialization
 
-
-git pull
-
+Steps to init project:
 rails db:migrate
-
 rails s
