@@ -11,5 +11,7 @@ The mealtracker app utilized:
 
 
 git pull
+
 rails db:migrate
+
 rails s
